@@ -9,6 +9,9 @@
  * Key (property) is a string, the value can be any datatype.
  *
  * 'this' is a self reference to the object where the call happens.
+ *
+ * Standard built-in objects
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
  */
 
 // Object with different datatypes as values: string, boolean, number, function
