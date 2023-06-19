@@ -3,6 +3,10 @@ Variable datatypes
 JavaScript has a dynamic data type which is dependent on the value. 
 It´s not like Java where you have to define a datatype while declaring 
 a variable. Python has also a dynamic data type system.
+It´s also called loose typing system. In Java it´s a strong typing system.
+With a loose typing system the assigned value defines the used datatype.
+With a strong typing system the developer has to define a datatype and 
+has to think about the future values which should be assigned to.
 
 There are 8 datatypes in JavaScript:
 number, boolean, string, object, undefined, null
@@ -69,3 +73,6 @@ console.log(0 === "");
 
 // typesafe not equality check
 console.log(0 !== "");
+
+// It is possible since ES2021 to use underscores like in Java.
+console.log(2_000_000);
